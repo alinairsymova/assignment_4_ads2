@@ -48,3 +48,4 @@ public class BreadthFirstSearch<V> extends Search<V> {
         return path;
     }
 }
+

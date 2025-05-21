@@ -23,6 +23,7 @@ public class WeightedGraph<V> {
         sourceVertex.addAdjacentVertex(destVertex, weight);
     }
 
+
     public Vertex<V> getVertex(V data) {
         return vertices.get(data);
     }

@@ -1,5 +1,6 @@
 import java.util.List;
 
+
 public abstract class Search<V> {
     protected WeightedGraph<V> graph;
 

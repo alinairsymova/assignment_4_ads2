@@ -44,6 +44,7 @@ public class DijkstraSearch<V> extends Search<V> {
             }
         }
 
+
         if (!parentMap.containsKey(endVertex) && !startVertex.equals(endVertex)) {
             return Collections.emptyList();
         }
